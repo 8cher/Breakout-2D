@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T09:35:55.082Z" agent="5.0 (Windows)" etag="sCXFC0-lqT-IxHs6Jcma" version="15.8.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-22T14:27:46.195Z" agent="5.0 (Windows)" etag="iYMmZ-ZS4Rb7dPb5rwrQ" version="15.8.3" type="github" pages="2">
   <diagram id="j4yADAcBJTlE0MgHbFQH" name="Game Design">
-    <mxGraphModel dx="2249" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2545" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,6 +46,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m0IgPKd1K75AwhOamDjl-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="lZPO9G5ehcdFBOwL09j4-6" target="m0IgPKd1K75AwhOamDjl-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQmOmKvc5tfeNi4i5-iy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="lZPO9G5ehcdFBOwL09j4-6" target="AQmOmKvc5tfeNi4i5-iy-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lZPO9G5ehcdFBOwL09j4-6" value="属性" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -199,11 +202,14 @@
         <mxCell id="AQmOmKvc5tfeNi4i5-iy-1" value="小球撞到边框或砖块或Paddle后会反弹" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="835" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="AQmOmKvc5tfeNi4i5-iy-3" value="Paddle移动边界" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;sketch=1;glass=0;shadow=0;absoluteArcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="9mextw0oVyvGEGGCA2Yd" name="Game Structure">
-    <mxGraphModel dx="2889" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1809" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uuFzfXdyZzTkFxvxR00C-0" />
         <mxCell id="uuFzfXdyZzTkFxvxR00C-1" parent="uuFzfXdyZzTkFxvxR00C-0" />
@@ -367,6 +373,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2XwQVIYbjwrB-QFxlzP2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="uuFzfXdyZzTkFxvxR00C-1" source="HQX9oofSXuFN23WW5Z-N-21" target="2XwQVIYbjwrB-QFxlzP2-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rWeCeWgZ2vIdml_frwwD-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="uuFzfXdyZzTkFxvxR00C-1" source="HQX9oofSXuFN23WW5Z-N-21" target="rWeCeWgZ2vIdml_frwwD-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HQX9oofSXuFN23WW5Z-N-21" value="&lt;div&gt;游戏管理&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;sketch=1;" parent="uuFzfXdyZzTkFxvxR00C-1" vertex="1">
@@ -595,6 +604,9 @@
             <mxPoint x="-170" y="420" as="sourcePoint" />
             <mxPoint x="10" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rWeCeWgZ2vIdml_frwwD-0" value="板子移动边界" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#d6b656;fillColor=#fff2cc;sketch=1;" vertex="1" parent="uuFzfXdyZzTkFxvxR00C-1">
+          <mxGeometry x="-246" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
