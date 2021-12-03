@@ -13,8 +13,11 @@
 设计中，故意将板子的初始移动速度稍微减慢一些，并且游戏内没有生命计数功能。总体模式偏向竞速模式（虽然没有记分板也没有计时器）。
 
 素材来源：
+
 https://kenney.nl/assets/puzzle-pack
+
 https://kenney.nl/assets/interface-sounds
+
 https://opengameart.org/content/8-bit-pack-1
 
 ---
